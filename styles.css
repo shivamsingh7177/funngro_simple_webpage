@@ -1,0 +1,160 @@
+body {
+    color: white;
+}
+.headnote p {
+    margin: 5px 0px;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #009933;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f1f1f1;
+  }
+
+/* headnote */
+
+.headnote {
+    background-color: rgb(49, 186, 79);
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #1c201c;
+}
+
+.nav-link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-link:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.navbar-nav .active {
+    color: rgb(49, 186, 79) !important;
+}
+
+.navbar-toggler-icon {
+    border-color: white;
+}
+.navbarContainer {
+    padding: 0px 20px;
+}
+
+
+/* download-area */
+.download {
+    background-color: #1c201c;
+}
+.download-desc {
+    width: 80%;
+    padding: 5px 0;
+    margin: auto;
+}
+
+.download-note {
+    margin: auto;
+}
+
+.downitem {
+    padding: 5px;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.down-head {
+    font-size: 4em;
+}
+
+.phoneimg {
+    width: 100%;
+    margin: auto;
+}
+
+/* features */
+
+#features {
+    margin: auto;
+    position: relative;
+    background-color: #1c201c;
+}
+.features-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.feature-icons {
+    color: #37e87e;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.feature-icons:hover {
+    color: #079741;
+}
+
+.feature-box {
+    line-height: 1.5;
+    padding: 3%;
+    text-align: center;
+}
+
+/* cards */
+.dec-desc {
+    padding-bottom: 5%;
+}
+
+#funngro-cards {
+    margin: auto;
+    padding: 100px 0px;
+    text-align: center;
+    background-color: #1c201c;
+}
+
+.card-text {
+    color: white;
+}
+.card-head {
+    color: white;
+}
+.card-icons {
+    color: #ffffff;
+    font-size: 4rem;
+    margin: 10px 0px 5px 0px;
+}
+.card-icons:hover {
+    color: #a9eac3;
+}
+
+.card {
+    margin: 10px;
+    align-items: center;
+}
+
+
